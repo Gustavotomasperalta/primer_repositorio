@@ -45,6 +45,7 @@ header {
     position: fixed;
     padding: auto;
     flex-direction: column;
+    background-image: linear-gradient(45deg, black, rgb(83, 81, 81));
 }
 
 .subheader {
@@ -96,6 +97,7 @@ h1 {
     font-family: "jetsbrainmono";
     padding-left: 45px;
 }
+
 
 /*----------------------------------------------------- contenido----------------------------------------------------- */
 
@@ -252,6 +254,7 @@ footer {
     height: 85px;
     width: 100%;
     margin: 0px 0px 0px 0px;
+    background-image: linear-gradient(45deg, rgb(83, 81, 81), black );
 }
 
 .subfooter {
