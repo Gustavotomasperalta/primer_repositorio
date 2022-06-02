@@ -40,30 +40,31 @@ body {
 header {
     display: flex;
     width: 100%;
-    height: 120px;
-    background-color: #000000c8;
+    /*     height: 120px; */
+    /*     background-color: #000000c8; */
     position: fixed;
     padding: auto;
     flex-direction: column;
-    background-image: linear-gradient(45deg, black, rgb(83, 81, 81));
+    /*     background-image: linear-gradient(45deg, black, rgb(83, 81, 81)); */
 }
 
-.subheader {
+/* .subheader {
     margin: auto;
-}
-
+} */
+/* 
 .logo {
     width: 100%;
-}
+}*/
 
 .logo img {
     width: 50px;
     height: 50px;
     margin-left: 110px;
     margin-top: 5px;
+    margin: auto;
 }
 
-.menu {
+/* .menu {
     text-align: center;
     width: 100%;
     height: 50px;
@@ -80,20 +81,20 @@ header {
     margin: 5px;
     display: inline-block;
 }
-
+ */
 .menu li a {
     font-size: 10px;
     text-decoration: none;
     font-family: "jetsbrainmono";
     color: white;
     padding: 1px 1px;
-    display: inline-block;
+    /*     display: inline-block; */
 }
 
 h1 {
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 8px;
     font-family: "jetsbrainmono";
     padding-left: 45px;
 }
@@ -102,7 +103,7 @@ h1 {
 /*----------------------------------------------------- contenido----------------------------------------------------- */
 
 main {
-    margin-top: 111px;
+    margin-top: 50px;
 }
 
 .banner {
@@ -235,7 +236,11 @@ h2 {
 }
 
 /*----------------------------------------------------- footer ----------------------------------------------------- */
+footer {
+    width: 100%;
+}
 
+/* 
 .logo2 {
     width: 100%;
     margin-left: 0;
@@ -254,8 +259,8 @@ footer {
     height: 85px;
     width: 100%;
     margin: 0px 0px 0px 0px;
-    background-image: linear-gradient(45deg, rgb(83, 81, 81), black );
-}
+    /*     background-image: linear-gradient(45deg, rgb(83, 81, 81), black ); */
+/* }
 
 .subfooter {
     margin: auto;
@@ -277,7 +282,7 @@ footer {
 h5 {
     padding-left: 25px;
     text-align: center;
-}
+} */ 
 
 /*----------------------------------------------------- nosotros ----------------------------------------------------- */
 
@@ -916,6 +921,10 @@ h5 {
 
     .maqueta {
         margin-right: 600px;
+    }
+
+    h1 {
+        font-size: 10px;
     }
 
     h2 {
