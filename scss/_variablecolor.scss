@@ -1,3 +1,15 @@
 $color-contenido:#000000;
 $color-texto:rgba(255, 255, 255, 0.93);
 $color-headeryfooter:#000000c8;
+
+//MAPA DE COLORES
+
+$colores:($color-contenido:#000000,$color-texto:rgba(255, 255, 255, 0.93),$color-headeryfooter:#000000c8,);
+
+//brackpoint
+
+$desktop:1200px;
+
+$tablet:800px;
+
+$mobile:480px;

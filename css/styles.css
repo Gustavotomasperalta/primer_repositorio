@@ -480,89 +480,7 @@ footer {
     }
 }
 
-
-/*----------------------------------------------------- resolucion 630p ---------------------------------------------------- */
-
-
-
-
-@media screen and (min-width:630px) {
-    .grid_container {
-        display: flex;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
-        gap: 10px;
-        height: 100vh;
-        grid-template-areas:
-            "nav nav"
-            "main main"
-            "footer footer";
-    }
-
-    .realismo {
-        font-family: "jetsbrainmono";
-        text-align: center;
-        background-color: #000000;
-        height: 9%;
-        color: rgba(255, 255, 255, 0.93);
-        display: inline-block;
-        margin-top: 25px;
-        margin-left: 120px;
-        margin-right: 120px;
-        padding-top: 10px;
-    }
-
-    .renders {
-        font-family: "jetsbrainmono";
-        text-align: center;
-        background-color: #000000;
-        height: 9%;
-        color: rgba(255, 255, 255, 0.93);
-        display: inline-block;
-        margin-top: 25px;
-        margin-left: 120px;
-        margin-right: 120px;
-        padding-top: 10px;
-    }
-
-    .maqueta {
-        font-family: "jetsbrainmono";
-        text-align: center;
-        background-color: #000000;
-        height: 9%;
-        color: rgba(255, 255, 255, 0.93);
-        display: inline-block;
-        margin-top: 25px;
-        margin-left: 120px;
-        margin-right: 120px;
-        padding-top: 10px;
-    }
-
-    .hacemos {
-        margin-left: 120px;
-        margin-right: 120px;
-    }
-
-    .nosotros {
-        margin-right: 120px;
-        margin-left: 120px;
-        padding-top: 45px;
-    }
-
-    /* contacto */
-
-    .comentario {
-        font-size: 16px;
-        margin-right: auto;
-        margin-left: 200px;
-    }
-
-}
-
 /*----------------------------------------------------- resolucion 800p ---------------------------------------------------- */
-
-
 
 
 @media screen and (min-width:800px) {
@@ -587,8 +505,8 @@ footer {
         color: rgba(255, 255, 255, 0.93);
         display: inline-block;
         margin-top: 25px;
-        margin-left: 180px;
-        margin-right: 180px;
+        margin-left: 120px;
+        margin-right: 120px;
         padding-top: 10px;
     }
 
@@ -677,10 +595,10 @@ footer {
 
 }
 
-/*----------------------------------------------------- resolucion 1080p ---------------------------------------------------- */
+/*----------------------------------------------------- resolucion 1200p ---------------------------------------------------- */
 
 
-@media screen and (min-width:1080px) {
+@media screen and (min-width:1200px) {
     .grid_container {
         display: flex;
         display: grid;
@@ -736,139 +654,6 @@ footer {
 
     main {
         margin-top: 80px;
-    }
-
-    .realismo {
-        margin-left: 0;
-        margin-right: 550px;
-        border-top: 0;
-        border-left: 0;
-        border-right: 30px;
-        border-bottom: 30px;
-        border-color: rgba(68, 68, 68, 0.893);
-        border-style: solid;
-    }
-
-    .p1 {
-        font-size: 13px;
-        font-style: oblique;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-bottom: 25px;
-    }
-
-    .renders {
-        margin-left: 550px;
-        margin-right: 0;
-        border-top: 0;
-        border-left: 30px;
-        border-right: 0;
-        border-bottom: 30px;
-        border-color: rgba(68, 68, 68, 0.893);
-        border-style: solid;
-    }
-
-    .p2 {
-        font-size: 13px;
-        font-style: oblique;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-bottom: 25px;
-    }
-
-    .maqueta {
-        margin-left: 0;
-        margin-right: 550px;
-        border-top: 0;
-        border-left: 0;
-        border-right: 30px;
-        border-bottom: 30px;
-        border-color: rgba(68, 68, 68, 0.893);
-        border-style: solid;
-    }
-
-    .p3 {
-        font-size: 13px;
-        font-style: oblique;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-bottom: 25px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    footer {
-        display: inline-block;
-        height: 100px;
-    }
-
-    .logo2 {
-        width: 100%;
-        position: relative;
-        left: -100px;
-        margin-top: 5px;
-    }
-
-    .logo2 img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .derechos {
-        width: 40%;
-        display: flex;
-        position: relative;
-        left: 100px;
-        top: -40px;
-        margin: 0;
-        font-size: 13px;
-        text-align: center;
-    }
-
-    p {
-        font-size: 13px;
-    }
-
-    /* NOSOTROS */
-
-    .hacemos {
-        margin-left: 300px;
-        margin-right: 300px;
-    }
-
-    .nosotros {
-        font-size: 25px;
-        margin-right: 300px;
-        margin-left: 300px;
-        padding-top: 45px;
-    }
-
-    /* contacto */
-
-    .comentario {
-        font-size: 16px;
-        margin-right: auto;
-        margin-left: 450px;
-    }
-}
-
-/*----------------------------------------------------- resolucion 1200p ---------------------------------------------------- */
-
-
-@media screen and (min-width:1200px) {
-    .grid_container {
-        display: flex;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, auto);
-        gap: 10px;
-        height: 100vh;
-        grid-template-areas:
-            "nav nav nav"
-            "main main main"
-            "footer footer footer";
     }
 
     .realismo {
