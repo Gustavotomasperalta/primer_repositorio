@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="pagina de contenido de modelado en 3D y renderizados">
-        <meta name="keywords" content="renders,renderizados,modelados3D,sketchupv-ray,maquetadosvirtuales,arquitectura,diseñoyurbanismo,archirender">
-        <title>A R C H I R E N D E R - contacto</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/styles.css">
-    </head>
-    <body>
-        <div class="grid_container">
-            <div class="grid_item1">
-                <header>
-                    <div class="subheader">
-                        <div class="logo">
-                            <img class="animate__animated animate__bounce" src="../img/iconarchi.jpg" width="100px" alt="logo animado">
-                            <h1>A R C H I R E N D E R</h1>
-                        </div>
-                        <nav class="menu">
-                            <ul>
-                                <li><a href="../index.html">Inicio</a></li>
-                                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                                <li><a href="../pages/renders.html">Renders</a></li>
-                                <li><a href="../pages/precios.html">Precios</a></li>
-                                <li><a href="../pages/contacto.html">Contacto</a></li>
-                            </ul>
-                        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina de contenido de modelado en 3D y renderizados">
+    <meta name="keywords"
+        content="renders,renderizados,modelados3D,sketchupv-ray,maquetadosvirtuales,arquitectura,diseñoyurbanismo,archirender">
+    <title>A R C H I R E N D E R - contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/styles.css">
+</head>
+
+<body>
+    <div class="grid_container">
+        <div class="grid_item1">
+            <header>
+                <div class="subheader">
+                    <div class="logo">
+                        <img class="animate__animated animate__bounce" src="../img/iconarchi.jpg" width="100px"
+                            alt="logo animado">
+                        <h1>A R C H I R E N D E R</h1>
                     </div>
-                </header>
-            </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                            <li><a href="../pages/renders.html">Renders</a></li>
+                            <li><a href="../pages/precios.html">Precios</a></li>
+                            <li><a href="../pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
 
         <div class="grid_item2">
             <main>
@@ -41,6 +44,32 @@
                     <div class="tcontactanos">
                         <h2>CONTACTANOS</h2>
                     </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../img/renders16.jpg" class="d-block w-100" alt="barriorender">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/Lumion 188887876876876876876876版授权.jpg" class="d-block w-100" alt="casadebarriorender">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/interior8.jpg" class="d-block w-100" alt="livingrender">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                     <div class="comentario rounded-3">
                         <label for="">Nombre</label><br>
                         <input type="text" name="Nombre" id="Nombre"><br>
@@ -50,8 +79,9 @@
                         <input type="e-mail" placeholder="ejemplo@hotmail.com" name="Correo Electronico"
                             id="Correo Electronico"><br>
                         <label for="">Dejanos tu Consulta</label><br>
-                        <textarea class="shadow-none p-3 mb-5 bg-light rounded" name="consulta" placeholder="Agregue un comentario . . ." id="Dejanos tu Consulta"
-                            cols="30" rows="10"></textarea><br>
+                        <textarea class="shadow-none p-3 mb-5 bg-light rounded" name="consulta"
+                            placeholder="Agregue un comentario . . ." id="Dejanos tu Consulta" cols="30"
+                            rows="10"></textarea><br>
                     </div>
                 </menu>
                 <input class="enviar shadow-none p-3 mb-5 bg-light rounded" type="button" value="Enviar">
@@ -72,7 +102,7 @@
                                 <!--Grid column-->
                                 <div class="col-auto">
                                     <p class="pt-2">
-                                
+
                                     </p>
                                 </div>
                                 <!--Grid column-->
@@ -112,10 +142,10 @@
             </footer>
         </div>
     </div>
-</div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

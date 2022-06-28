@@ -21,10 +21,10 @@
 }
 
 .grid_item1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: nav;
+  -ms-grid-row: 1 !important;
+  -ms-grid-column: 1 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-area: nav !important;
 }
 
 .grid_item2 {
@@ -54,6 +54,7 @@ header {
   height: 120px;
   background-color: #000000c8;
   position: fixed;
+  z-index: 999;
   padding: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -259,12 +260,13 @@ h2 {
   display: flex;
   padding: auto;
   margin: auto;
+  height: 250px;
 }
 
 .youtube {
   margin-top: 20px;
   width: 100%;
-  height: 145px;
+  margin-bottom: 20px;
 }
 
 /*----------------------------------------------------- footer ----------------------------------------------------- */
@@ -277,8 +279,199 @@ footer {
   margin: auto;
 }
 
+/*----------------------------------------------------- nosotros ----------------------------------------------------- */
+.hacemos {
+  font-family: "jetsbrainmono";
+  text-align: center;
+  background-color: #000000fe;
+  color: rgba(255, 255, 255, 0.93);
+  margin-left: 60px;
+  margin-right: 60px;
+  border-style: solid;
+  font-style: oblique;
+  font-size: 12px;
+}
+
+.hacemos ul li {
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.nosotros {
+  text-align: center;
+  font-size: 15px;
+  font-family: "jetsbrainmono";
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-top: 25px;
+}
+
+/*----------------------------------------------------- renders ----------------------------------------------------- */
+.interior h3 {
+  text-align: center;
+  font-size: 22px;
+  font-family: "jetsbrainmono";
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  padding: 0;
+}
+
+.interior h2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  color: rgba(255, 255, 255, 0.93);
+  font-family: "jetsbrainmono";
+  font-size: 25px;
+}
+
+.exterior h3 {
+  text-align: center;
+  font-size: 22px;
+  font-family: "jetsbrainmono";
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  padding: 0;
+}
+
+.imgint {
+  margin: auto;
+  max-width: 1200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.imgext {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*----------------------------------------------------- precio ----------------------------------------------------- */
+.precio {
+  text-align: center;
+  font-size: 16px;
+  font-family: "jetsbrainmono";
+  padding: 0;
+  font-weight: bolder;
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  margin-top: 120px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.fotohd {
+  text-align: center;
+  font-size: 16px;
+  font-family: "jetsbrainmono";
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  padding: 0;
+}
+
+.planos {
+  text-align: center;
+  font-size: 16px;
+  font-family: "jetsbrainmono";
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  padding: 0;
+}
+
+.video4k {
+  text-align: center;
+  font-size: 16px;
+  font-family: "jetsbrainmono";
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  padding: 0;
+}
+
+.pack {
+  text-align: center;
+  font-size: 16px;
+  font-family: "jetsbrainmono";
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  padding: 0;
+}
+
+.botonpagar {
+  font-size: 16px;
+  font-family: "jetsbrainmono";
+  font-weight: bolder;
+  margin-left: 41%;
+  display: inline;
+  border-style: solid;
+  border-color: black;
+  margin-top: 20px;
+}
+
+/*----------------------------------------------------- contacto ----------------------------------------------------- */
+.tcontactanos {
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  text-align: center;
+  font-size: 30px;
+  font-family: "jetsbrainmono";
+  color: rgba(255, 255, 255, 0.93);
+  margin-top: 120px;
+  padding-top: 10px;
+}
+
+.slide {
+  padding-top: 30px;
+  height: 90%;
+  width: 100%;
+}
+
+.comentario {
+  font-size: 16px;
+  font-family: "jetsbrainmono";
+  background-color: #000000fe;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.93);
+  display: inline-block;
+  margin-right: auto;
+  margin-left: 3px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: 80px;
+}
+
+.enviar {
+  font-size: 20px;
+  font-family: "jetsbrainmono";
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-left: 48%;
+  display: inline;
+  border-style: solid;
+  border-color: black;
+}
+
 /* ----------------------------------------------------- resolucion 480p ---------------------------------------------------- */
-@media screen and (min-width: 480px) {
+/* MIXIN APLICADO */
+@media (min-width: 480px) {
   .grid_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -293,114 +486,159 @@ footer {
     height: 100vh;
         grid-template-areas: "nav nav" "main main" "footer footer";
   }
-  .realismo {
-    font-family: "jetsbrainmono";
-    text-align: center;
-    background-color: #000000;
-    height: 9%;
-    color: rgba(255, 255, 255, 0.93);
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 10px;
-  }
-  .renders {
-    font-family: "jetsbrainmono";
-    text-align: center;
-    background-color: #000000;
-    height: 9%;
-    color: rgba(255, 255, 255, 0.93);
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 10px;
-  }
-  .maqueta {
-    font-family: "jetsbrainmono";
-    text-align: center;
-    background-color: #000000;
-    height: 9%;
-    color: rgba(255, 255, 255, 0.93);
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding-top: 10px;
-  }
 }
 
-/*----------------------------------------------------- resolucion 800p ---------------------------------------------------- */
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
   .grid_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: (auto)[3];
-        grid-template-rows: repeat(3, auto);
-    gap: 10px;
-    height: 100vh;
         grid-template-areas: "nav nav" "main main" "footer footer";
   }
-  .realismo {
-    font-family: "jetsbrainmono";
-    text-align: center;
-    background-color: #000000;
-    height: 9%;
-    color: rgba(255, 255, 255, 0.93);
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 180px;
-    margin-right: 180px;
-    padding-top: 10px;
-  }
-  .renders {
-    font-family: "jetsbrainmono";
-    text-align: center;
-    background-color: #000000;
-    height: 9%;
-    color: rgba(255, 255, 255, 0.93);
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 180px;
-    margin-right: 180px;
-    padding-top: 10px;
-  }
-  .maqueta {
-    font-family: "jetsbrainmono";
-    text-align: center;
-    background-color: #000000;
-    height: 9%;
-    color: rgba(255, 255, 255, 0.93);
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 180px;
-    margin-right: 180px;
-    padding-top: 10px;
-  }
 }
 
-/*----------------------------------------------------- resolucion 1200p ---------------------------------------------------- */
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .grid_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: (auto)[3];
         grid-template-rows: repeat(3, auto);
-    gap: 10px;
-    height: 100vh;
         grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
   }
+}
+
+.realismo {
+  font-family: "jetsbrainmono";
+  text-align: center;
+  background-color: #000000;
+  height: 9%;
+  color: rgba(255, 255, 255, 0.93);
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 10px;
+}
+
+.renders {
+  font-family: "jetsbrainmono";
+  text-align: center;
+  background-color: #000000;
+  height: 9%;
+  color: rgba(255, 255, 255, 0.93);
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 10px;
+}
+
+.maqueta {
+  font-family: "jetsbrainmono";
+  text-align: center;
+  background-color: #000000;
+  height: 9%;
+  color: rgba(255, 255, 255, 0.93);
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 10px;
+}
+
+/* contacto */
+.comentario {
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: 100px;
+}
+
+/*----------------------------------------------------- resolucion 800p ---------------------------------------------------- */
+@media (min-width: 800px) {
+  .realismo {
+    font-family: "jetsbrainmono";
+    text-align: center;
+    background-color: #000000;
+    height: 9%;
+    color: rgba(255, 255, 255, 0.93);
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 10px;
+  }
+  .renders {
+    font-family: "jetsbrainmono";
+    text-align: center;
+    background-color: #000000;
+    height: 9%;
+    color: rgba(255, 255, 255, 0.93);
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 10px;
+  }
+  .maqueta {
+    font-family: "jetsbrainmono";
+    text-align: center;
+    background-color: #000000;
+    height: 9%;
+    color: rgba(255, 255, 255, 0.93);
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 10px;
+  }
+  .videoyt {
+    height: 350px;
+  }
+  /* NOSOTROS */
+  .hacemos {
+    margin-left: 220px;
+    margin-right: 220px;
+  }
+  .nosotros {
+    margin-right: 220px;
+    margin-left: 220px;
+    padding-top: 45px;
+  }
+  .listahacemos {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .titulohacemos {
+    font-size: 25px;
+  }
+  /* precios */
+  .precio {
+    font-size: 30px;
+  }
+  .fotohd {
+    font-size: 30px;
+  }
+  .planos {
+    font-size: 30px;
+  }
+  .video4k {
+    font-size: 30px;
+  }
+  .pack {
+    font-size: 30px;
+  }
+  .botonpagar {
+    font-size: 30px;
+  }
+  /* contacto */
+  .comentario {
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: 250px;
+  }
+}
+
+/*----------------------------------------------------- resolucion 1200p ---------------------------------------------------- */
+@media (min-width: 1200px) {
   header {
     height: 90px;
     display: inline-block;
@@ -429,7 +667,7 @@ footer {
     margin: 10px;
   }
   .menu li a {
-    font-size: 15px;
+    font-size: x-large;
   }
   h1 {
     font-size: x-large;
@@ -442,12 +680,15 @@ footer {
   }
   .realismo {
     margin-right: 600px;
+    margin-left: 20px;
   }
   .renders {
     margin-left: 600px;
+    margin-right: 20px;
   }
   .maqueta {
     margin-right: 600px;
+    margin-left: 20px;
   }
   h1 {
     font-size: x-large;
@@ -475,6 +716,38 @@ footer {
   }
   p {
     font-size: 15px;
+  }
+  .videoyt {
+    height: 500px;
+  }
+  .hacemos {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+  .nosotros {
+    font-size: 25px;
+    margin-right: 350px;
+    margin-left: 350px;
+    padding-top: 45px;
+  }
+  /* renders */
+  .imgint {
+    width: 100%;
+    height: 100%;
+  }
+  .imgext {
+    width: 100%;
+    height: 100%;
+  }
+  /* contacto */
+  .comentario {
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: 450px;
+  }
+  /* precios */
+  .botonpagar {
+    margin-left: 45%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
