@@ -50,7 +50,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 120px;
   background-color: #000000c8;
   position: fixed;
@@ -74,8 +74,9 @@ header {
 .logo img {
   width: 50px;
   height: 50px;
-  margin-left: 110px;
+  margin-left: 140px;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .menu {
@@ -101,7 +102,7 @@ header {
 }
 
 .menu ul li a {
-  font-size: 10px;
+  font-size: 12px;
   text-decoration: none;
   font-family: "jetsbrainmono";
   color: rgba(255, 255, 255, 0.93);
@@ -114,7 +115,7 @@ h1 {
   font-weight: bold;
   font-size: 15px;
   font-family: "jetsbrainmono";
-  padding-left: 45px;
+  padding-left: 70px;
 }
 
 /*----------------------------------------------------- contenido----------------------------------------------------- */
@@ -127,6 +128,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
+  width: 100vw;
 }
 
 @font-face {
@@ -279,11 +281,29 @@ footer {
   margin: auto;
 }
 
+.redes .instagram {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.redes .youtube {
+  width: 25px;
+  height: 30px;
+  margin: 5px;
+}
+
+.redes .linkedin {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
 /*----------------------------------------------------- nosotros ----------------------------------------------------- */
 .hacemos {
   font-family: "jetsbrainmono";
   text-align: center;
-  background-color: #000000fe;
+  background-color: #000000;
   color: rgba(255, 255, 255, 0.93);
   margin-left: 60px;
   margin-right: 60px;
@@ -293,15 +313,15 @@ footer {
 }
 
 .hacemos ul li {
-  font-size: 15px;
+  font-size: 13px;
   list-style-type: none;
 }
 
 .nosotros {
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   font-family: "jetsbrainmono";
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   margin-right: 60px;
@@ -314,7 +334,7 @@ footer {
   text-align: center;
   font-size: 22px;
   font-family: "jetsbrainmono";
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   padding: 0;
@@ -323,6 +343,8 @@ footer {
 .interior h2 {
   -o-object-fit: cover;
      object-fit: cover;
+  background-color: #000000;
+  border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   font-family: "jetsbrainmono";
   font-size: 25px;
@@ -332,7 +354,7 @@ footer {
   text-align: center;
   font-size: 22px;
   font-family: "jetsbrainmono";
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   padding: 0;
@@ -363,7 +385,7 @@ footer {
   font-family: "jetsbrainmono";
   padding: 0;
   font-weight: bolder;
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   margin-top: 120px;
@@ -376,7 +398,7 @@ footer {
   text-align: center;
   font-size: 16px;
   font-family: "jetsbrainmono";
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   padding: 0;
@@ -386,7 +408,7 @@ footer {
   text-align: center;
   font-size: 16px;
   font-family: "jetsbrainmono";
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   padding: 0;
@@ -396,7 +418,7 @@ footer {
   text-align: center;
   font-size: 16px;
   font-family: "jetsbrainmono";
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   padding: 0;
@@ -406,7 +428,7 @@ footer {
   text-align: center;
   font-size: 16px;
   font-family: "jetsbrainmono";
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   padding: 0;
@@ -419,13 +441,13 @@ footer {
   margin-left: 41%;
   display: inline;
   border-style: solid;
-  border-color: black;
+  border-color: #000000;
   margin-top: 20px;
 }
 
 /*----------------------------------------------------- contacto ----------------------------------------------------- */
 .tcontactanos {
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   text-align: center;
@@ -445,7 +467,7 @@ footer {
 .comentario {
   font-size: 16px;
   font-family: "jetsbrainmono";
-  background-color: #000000fe;
+  background-color: #000000;
   border-style: solid;
   color: rgba(255, 255, 255, 0.93);
   display: inline-block;
@@ -466,7 +488,7 @@ footer {
   margin-left: 48%;
   display: inline;
   border-style: solid;
-  border-color: black;
+  border-color: #000000;
 }
 
 /* ----------------------------------------------------- resolucion 480p ---------------------------------------------------- */
@@ -549,7 +571,11 @@ footer {
 .comentario {
   font-size: 16px;
   margin-right: auto;
-  margin-left: 100px;
+  margin-left: 60px;
+}
+
+.enviar {
+  margin-left: 40%;
 }
 
 /*----------------------------------------------------- resolucion 800p ---------------------------------------------------- */
@@ -633,7 +659,10 @@ footer {
   .comentario {
     font-size: 16px;
     margin-right: auto;
-    margin-left: 250px;
+    margin-left: 220px;
+  }
+  .enviar {
+    margin-left: 45%;
   }
 }
 
@@ -744,6 +773,9 @@ footer {
     font-size: 16px;
     margin-right: auto;
     margin-left: 450px;
+  }
+  .enviar {
+    margin-left: 48%;
   }
   /* precios */
   .botonpagar {
