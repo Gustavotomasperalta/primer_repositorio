@@ -54,7 +54,7 @@ header {
   height: 120px;
   background-color: #000000c8;
   position: fixed;
-  z-index: 999;
+  z-index: 2000;
   padding: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -273,7 +273,7 @@ h2 {
 
 /*----------------------------------------------------- footer ----------------------------------------------------- */
 footer {
-  width: 100%;
+  width: 100vw;
   margin: 0px 0px 0px 0px;
 }
 
